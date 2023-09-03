@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(42, 46, 55, 0.912);
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.font-color{
+    color: rgb(71, 213, 166);
+}
+
+.who-win{
+    font-family:'Lobster', cursive, sans-serif;
+    font-size: 8rem;
+    padding: 2rem;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.406);
+}
+
+.dice-container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.players-dice{
+    font-size: 2rem;
+    font-family: 'indie flower', sans-serif;
+}
+
+.players-dice>p{
+    padding: 2rem;
+}
+
+.players-dice>img{
+    width: 85%;
+    border-radius: 0.5rem;
+}
+
+footer{
+    padding-top: 3rem;
+    color: aliceblue;
+    font-family: 'indie flower', sans-serif;
+}
+
+@media (max-width:1200px){
+    .container{
+        text-align: center;
+    }
+
+    .who-win{
+        font-size: 6rem;
+        margin: auto;
+    }
+
+    .dice-container{
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .players-dice>p{
+        padding: 2rem;
+    }
+    .players-dice>img{
+        width: 20%;
+    }
+    
+    footer{
+        padding-bottom: 1rem;
+    }
+}
